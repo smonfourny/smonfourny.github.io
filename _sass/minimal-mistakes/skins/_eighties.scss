@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Eighties skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #2d2d2d !default;
+$text-color: #d3d0c8 !default;
+$muted-text-color: #747369 !default;
+$primary-color: #f2777a !default;
+$border-color: mix(#fff, $background-color, 20%) !default;
+$code-background-color: mix(#000, $background-color, 15%) !default;
+$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+$form-background-color: mix(#000, $background-color, 15%) !default;
+$footer-background-color: #393939 !default;
+$link-color:  #f2777a !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#000, $link-color, 25%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+/* eighties syntax highlighting (base16) */
+$base00: #393939 !default;
+$base01: #393939 !default;
+$base02: #515151 !default;
+$base03: #999999 !default;
+$base04: #747369 !default;
+$base05: #cccccc !default;
+$base06: #747369 !default;
+$base07: #747369 !default;
+$base08: #f2777a !default;
+$base09: #f99157 !default;
+$base0a: #ffcc66 !default;
+$base0b: #99cc99 !default;
+$base0c: #66cccc !default;
+$base0d: #6699cc !default;
+$base0e: #cc99cc !default;
+$base0f: #999999 !default;
+
+/* override brand colors */
+$behance-color: #cc99cc !default;
+$bitbucket-color: #cc99cc !default;
+$dribbble-color: #cc99cc !default;
+$facebook-color: #cc99cc !default;
+$flickr-color: #cc99cc !default;
+$foursquare-color: #cc99cc !default;
+$github-color: #cc99cc !default;
+$gitlab-color: #cc99cc !default;
+$instagram-color: #cc99cc !default;
+$keybase-color: #cc99cc !default;
+$lastfm-color: #cc99cc !default;
+$linkedin-color: #cc99cc !default;
+$mastodon-color: #cc99cc !default;
+$pinterest-color: #cc99cc !default;
+$reddit-color: #cc99cc !default;
+$rss-color: #cc99cc !default;
+$soundcloud-color: #cc99cc !default;
+$stackoverflow-color: #cc99cc !default;
+$tumblr-color: #cc99cc !default;
+$twitter-color: #cc99cc !default;
+$vimeo-color: #cc99cc !default;
+$vine-color: #cc99cc !default;
+$youtube-color: #cc99cc !default;
+$xing-color: #cc99cc !default;
+
+.fa-envelope-square, 
+.fa-map-marker-alt {
+	color: #cc99cc;
+}

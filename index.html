@@ -1,0 +1,26 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+title: Hello world!
+layout: splash
+author_profile: true
+header:
+  overlay_color: #000
+  overlay_filter: 0.5
+  overlay_image: /assets/images/otaru-lofi.png
+  actions:
+    - label: "About"
+      url: /about/
+    - label: "Projects"
+      url: /projects/
+excerpt: I'm Sandrine, a full-stack developer with interests in compilers and theory of computation. Check the about page to learn more about me, or jump straight to projects.
+---
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
