@@ -27,6 +27,7 @@ description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://smonfourny.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: smonfourny
+repository: smonfourny/smonfourny.github.io
 
 author:
   name: "S Monfourny"
@@ -43,10 +44,12 @@ author:
       url: https://www.linkedin.com/in/smonfourny/
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "eighties"
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
+  - jekyll-remote-theme
 
 paginate: 5 # amount of posts to show
 breadcrumbs: true
